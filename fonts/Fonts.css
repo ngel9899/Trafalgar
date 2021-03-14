@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Mulish-regilar';
+    src: local('Mulish-Regular'),
+        url('Mulish-Regular.woff2') format('woff2'),
+        url('Mulish-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mulish-bold';
+    src: local('Mulish-Bold'),
+        url('Mulish-Bold.woff2') format('woff2'),
+        url('Mulish-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mulish-Light';
+    src:local('Mulish-Light'),
+        url('Mulish-Light.woff2') format('woff2'),
+        url('Mulish-Light.woff') format('woff'),
+    font-weight: 300;
+    font-style: normal;
+}

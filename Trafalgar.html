@@ -8,27 +8,41 @@
 	<link rel="stylesheet" type="text/css" href="css\style.css">
 </head>
 <body>
-	<header>
-		<div class="header-container">
+	<header class="header-container">
 			<a href=""><img src="img\logo.png"></a>
-			<nav class="header-nav">
-				<a href="">Home</a>
-				<a href="">Find a doctor</a>
-				<a href="">Apps</a>
-				<a href="">Testimonials</a>
-				<a href="">About us</a>
-			</nav>
-		</div>
+			<div class="header-nav">
+				<nav class="header-nav-list">
+					<a href="">Home</a>
+					<a href="">Find a doctor</a>
+					<a href="">Apps</a>
+					<a href="">Testimonials</a>
+					<a href="">About us</a>
+				</nav>
+				<div class="drop-container">
+						<div class="dropdown">
+				  			<button class="dropbtn">Menu</button>
+				  			<div class="dropdown-content">
+							    <a href="">Home</a>
+								<a href="">Find a doctor</a>
+								<a href="">Apps</a>
+								<a href="">Testimonials</a>
+								<a href="">About us</a>
+							</div>
+						</div>
+					</div>
+			</div>
 	</header>
 	<div class="container">
-		<div class="body-lef-block">
-			<img src="img\points.png">
-			<h2>Virtual healthcare for you</h2>
-			<p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
-			<button>Consult today</button>
+		<img src="img\points.png" class="points">
+		<div class="body-left-block">
+			<div class="left-block-text">
+				<h2>Virtual healthcare for you</h2>
+				<p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
+			</div>
+			<button class="button">Consult today</button>
 		</div>
 		<div class="body-right-block">
-			<img src="img\trafalgar.png">
+			<img src="img\trafalgar.png" class="right-block-img">
 		</div>
 	</div>
 </body>
